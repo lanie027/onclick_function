@@ -1,0 +1,28 @@
+.button{
+    display: block;
+    margin: 50px auto;
+    padding: 8px 32px;
+    background-color: #EE9E2D;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .1s all linear;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover {
+        background-color: darken(#EE9E2D, 10%);
+    }
+}
+.alert{
+    display: none;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    padding: 32px 64px;
+    background-color: #fbe8e4;
+    border: 1px solid #dc2500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px ;
+    color: #dc2500;
+}
